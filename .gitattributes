@@ -1,2 +1,0 @@
-requirements.txt -filter -merge -diff
-*.txt filter=lfs diff=lfs merge=lfs -text
