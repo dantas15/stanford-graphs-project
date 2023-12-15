@@ -1,0 +1,13 @@
+# Directed graph (each unordered pair of nodes is saved once): sample-web-graph.txt
+# Sample web graph
+# Nodes: 7 Edges: 9
+# FromNodeId	ToNodeId
+1	2
+1	3
+2	3
+3	4
+4	5
+5	1
+3	6
+6	7
+7	3

@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c29cf27fb5f928f10f5c2bce4fbfdb78ac50a7fa1c500bc27081b37920b3ae3
-size 14
+contourpy==1.2.0
+cycler==0.12.1
+fonttools==4.46.0
+kiwisolver==1.4.5
+matplotlib==3.8.2
+networkx==3.2
+numpy==1.26.2
+packaging==23.2
+Pillow==10.1.0
+pyparsing==3.1.1
+python-dateutil==2.8.2
+pytz==2023.3.post1
+scipy==1.11.4
+six==1.16.0
+tzdata==2023.3
