@@ -8,6 +8,8 @@
   - authorities are demonstrated with the blue color
   - hubs are demonstrated with the red color
 
+- This project is on [GitHub](https://github.com/dantas15/stanford-graphs-project)!
+
 ## Build project
 
 ```shell
