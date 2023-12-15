@@ -2,6 +2,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 def visualize_hubs_and_authorities(input_graph):
+    # The HITS algorithm computes two numbers for a node. Authorities estimates the node value based on the incoming links.
+    # Hubs estimates the node value based on outgoing links
     hubs, authorities = nx.hits(input_graph)
 
     # Normalize the scores for visualization purposes
@@ -28,5 +30,5 @@ def visualize_hubs_and_authorities(input_graph):
     # Draw labels
     nx.draw_networkx_labels(input_graph, pos_subgrafo, font_weight='bold')
 
-    plt.title(f'Comunidade with Hubs and Authorities Highlighted')
+    plt.title(f'Stanford pages with Hubs and Authorities Highlighted')
     plt.show()
